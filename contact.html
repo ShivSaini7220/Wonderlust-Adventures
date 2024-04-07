@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Wanderlust Adventures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header style="background-image: url('Contact.jpg');" alt="Contact Wanderlust Adventures">
+        <h1>Contact Wanderlust Adventures</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="booking.html">Booking-form</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Contact Information</h2>
+        <p>If you have any questions or inquiries, feel free to contact us:</p>
+        <p>Email: shivusaini86@gmail.com</p>
+        <p>Phone: 905-966-7220</p>
+        <p>Address: 86, Harbourtown Crescent, Brampton, Ontario, Canada</p>
+        <p>Or fill out the form below:</p>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Wanderlust Adventures. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
